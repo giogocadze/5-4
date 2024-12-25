@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background: #F1EBFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.buy {
+    color: #40D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.social {
+    color: #5E6577;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.main {
+    display: flex;
+    gap: 64px;
+    margin-top: 70px;
+    max-width: 1040px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+
+}
+
+.filter {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border-radius: 16px;
+    background: #F1EBFF;
+    padding: 8px 24px 8px 12px;
+}
+
+.paraghrap {
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 16px;
+    background: #40D;
+}
+
+.house {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.places {
+    color: #5E6577;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    flex-shrink: 0;
+    width: 570px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-bottom: 1px solid #CCD3E0;
+    height: 48px;
+}
+
+.taxes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.total {
+    color: #40D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.fee {
+    color: #5E6577;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.mm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paraghraps {
+    border-top: 2px solid #8CE900;
+    padding: 17px 23px;
+    border-right: 2px solid #155EEF;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000;
+    min-height: 266px;
+}
+
+.snowdon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nestle {
+    color: #969696;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 488px;
+
+}
+
+.snowddon {
+    color: #5E6577;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.sacramento {
+    border-radius: 8px;
+    border: 1px solid #40D;
+    min-height: 272px;
+    padding: 16px 24px;
+    background: #EDE6FC;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.locate {
+    color: #3B3B3B;
+    width: 488px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hostel {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.wrapp {
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+    min-height: 272px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.london {
+    color: #07081A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 488px;
+}
+
+.boxWrap {
+    color: #155EEF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 488px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    padding-top: 40px;
+    border-top: 1px solid #F1EBFF;
+    margin-top: 193px;
+   justify-content: center;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.width {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
